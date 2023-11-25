@@ -1,0 +1,42 @@
+/* DetailPage.css */
+
+/* Container for the data details */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    text-align: center; /* Tambahkan text-align: center */
+}
+
+/* Data title */
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center; /* Center align the text */
+    margin-bottom: 15px;
+}
+
+/* Data image */
+.detail-img {
+    width: 20%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; /* Tambahkan margin: 0 auto */
+}
+
+/* Data details */
+.detail-detail {
+    font-size: 16px;
+    color: rgb(5, 5, 5);
+    margin: 3;
+    text-align: center;
+    margin-bottom: 10px;
+}

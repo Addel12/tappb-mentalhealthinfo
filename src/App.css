@@ -1,0 +1,70 @@
+body {
+  background-color: #5C7AFF;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  padding-bottom: 60px; /* Sesuaikan dengan tinggi footer */
+}
+
+header {
+  background-color: rgb(23, 23, 43);
+  text-align: center;
+  padding: 10px 0;
+}
+
+#titleGroup {
+  margin: 0;
+  font-size: 18px;
+  color: white;
+  font-family: Verdana;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(23, 23, 43);
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 2px solid black;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: Verdana;
+  padding: 5px 0;
+  font-size: 12px;
+}
+
+.icon {
+  color: white;
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.active {
+  color: rgb(65, 65, 233);
+}
+
+@media (max-width: 768px) {
+  /* Apply styles for screens with a maximum width of 768px (typical tablet and phone landscape) */
+  #titleGroup {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Apply styles for screens with a maximum width of 480px (typical phone portrait) */
+  #titleGroup {
+    font-size: 18px;
+  }
+}
